@@ -73,6 +73,8 @@ SparkFun ProMicro from here:
 
 https://www.sparkfun.com/products/12587
 
+***since running ok using Arduino IDE 1.6.10
+
 
 Work In Progress
 ====
