@@ -35,25 +35,25 @@
 // https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-overview-pro-micro
 
 #define NUM_CHANNELS 9
-#define REG          8  // A0
-#define D7           7  // A1
-#define D6           6  // A2
-#define D5           5  // A3
-#define D4           4  // 4
-#define D3           3  // 6
-#define D2           2  // 8
-#define D1           0  // 9
-#define D0           1 // 10
+#define REG          8  // A8
+#define D7           7  // 7
+#define D6           6  // A7
+#define D5           5  // 5
+#define D4           4  // A6
+#define D3           3  // 3
+#define D2           2  // 2
+#define D1           0  // RX
+#define D0           1  // TX
 
-#define LED_REG      A3 // TX
-#define LED_D7       A2 // RX
-#define LED_D6       A1
-#define LED_D5       A0
-#define LED_D4       15
-#define LED_D3       14
-#define LED_D2       16
-#define LED_D1       10
-#define LED_D0       9
+#define LED_REG      A3 // 21
+#define LED_D7       A2 // 20
+#define LED_D6       A1 // 19
+#define LED_D5       A0 // 18
+#define LED_D4       15 // SCLK
+#define LED_D3       14 // MISO
+#define LED_D2       16 // MOSI
+#define LED_D1       10 // A10
+#define LED_D0       9  // A9
 
 // Set to 8, will only read IN phase
 // Set to 16, will read and collect OUT phase also
@@ -362,5 +362,4 @@ char tohexch(byte val)
 }
 
 /* END OF FILE */
-
 
